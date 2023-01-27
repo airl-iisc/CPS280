@@ -75,7 +75,7 @@ git clone https://github.com/Mnzs1701/camera_calib_python/
 
 Download the deb file using:
 ```
-curl -k -O -L http://ports.ubuntu.com/ubuntu-ports/pool/main/b/boost1.71/libboost1.71-dev_1.71.0-6ubuntu6_armhf.debc
+curl -k -O -L http://ports.ubuntu.com/ubuntu-ports/pool/main/b/boost1.71/libboost1.71-dev_1.71.0-6ubuntu6_armhf.deb
 ```
 Install the deb file using:
 ```
