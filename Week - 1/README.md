@@ -15,40 +15,46 @@
         For example:
         If the IP address is 192.168.1.113 then you must enter
         192.168.1.113::5901
-7. Login with the password cps280
+7. Login with the password `cps280`
 
 
 ## Section 2: Installing ROS
+1.Install curl
+```
+sudo apt install curl
+```
 
-1. Setup your sources.list
+2. Setup your sources.list
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
-2. Setup your keys
+3. Setup your keys
 ```
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
 
-3. To be sure that your Ubuntu Mate package index is up to date, type the following command
+4. To be sure that your Ubuntu Mate package index is up to date, type the following command
 ```
 sudo apt-get update
 ```
 
-4. If you get a message saying the following
+5. If you get a message saying the following
 ```
 E: Release file for http://ports.ubuntu.com/ubuntu-ports/dists/focal-updates/InRelease is not valid yet (invalid for another 7h 23min 13s). Updates for this repository will not be applied.
 ```
-5. It probably means that your system time is wrong, update the system time using this one line command:
+6. It probably means that your system time is wrong, update the system time using this one line command:
 ```
 sudo date -s "$(wget --method=HEAD -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f4-10)"
 ```
 
-6. Install ROS
+7. Install ROS
+
+Once you are within the Raspberry Pi System your password will be `admin`
 ```
 sudo apt install ros-noetic-desktop
 ```
 
-7. To setup the ROS environment we use the following script
+8. To setup the ROS environment we use the following script
 ```
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
