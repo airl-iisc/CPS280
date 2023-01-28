@@ -19,9 +19,9 @@
 
 
 ## Section 2: Installing ROS
-1.Install curl
+1.Install git and curl
 ```
-sudo apt install curl
+sudo apt install curl git
 ```
 
 2. Setup your sources.list
