@@ -17,6 +17,7 @@
         192.168.1.113::5901
 7. Login with the password `cps280`
 
+8. [Optional] Optionally use [Putty] `(https://www.putty.org/)` to SSH into the system
 
 ## Section 2: Installing ROS
 1.Install git and curl
