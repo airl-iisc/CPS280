@@ -20,6 +20,9 @@
 8. [Optional] Optionally use [Putty] `(https://www.putty.org/)` to SSH into the system
 
 ## Section 2: Installing ROS
+
+Once you are within the Raspberry Pi System your username is 'airl' and password will be `admin`
+
 1.Install git and curl
 ```
 sudo apt install curl git
@@ -49,8 +52,6 @@ sudo date -s "$(wget --method=HEAD -qSO- --max-redirect=0 google.com 2>&1 | grep
 ```
 
 7. Install ROS
-
-Once you are within the Raspberry Pi System your password will be `admin`
 ```
 sudo apt install ros-noetic-desktop
 ```
