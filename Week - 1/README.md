@@ -21,7 +21,7 @@
 
 ## Section 2: Installing ROS
 
-Once you are within the Raspberry Pi System your username is 'airl' and password will be `admin`
+Once you are within the Raspberry Pi System your username is `airl` and password will be `admin`
 
 1.Install git and curl
 ```
