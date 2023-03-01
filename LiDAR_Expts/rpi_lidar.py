@@ -13,13 +13,29 @@ def laser_cb(data):
     theta_max = data.angle_max
     theta_resolution = data.angle_increment
 
-    dist_k = data.ranges[int(k)]
+    ############################################
+    #### Insert your code within these tags ####
+    ############################################
+    #
+    # Your code here:
+    # 
+    # 
+    # dist_k = data.ranges[int(k)]
+    #
+    #
+    #
+    ##############################################
+    #### Output X Coordinate and Y Coordinate ####
+    ##############################################
+
 
     # Calculate x position
     print("X {}".format(x_coordinate))
     # Calculate y position
     print("Y {}".format(y_coordinate))
 
+
+# You do not need to modify code below this line
 
 def scanner_node():
     rospy.init_node('laser_scanner',anonymous=True)
