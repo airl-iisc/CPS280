@@ -10,6 +10,7 @@ then create a source folder to place your code
 ```
 cd catkin_ws
 mkdir src
+cd src
 ```
 Further you will need to install the volta package from Github:
 ```
