@@ -35,6 +35,11 @@ From the `cps_280_ws` root folder
 cd ~/cps_280_ws
 ```
 
+Install dependencies
+```
+rosdep install --from-paths src --ignore-src -r -y
+```
+
 Run 
 ```
 catkin_make
